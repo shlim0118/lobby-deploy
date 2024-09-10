@@ -41,7 +41,7 @@ spec:
         effect: "NoSchedule"
       containers:
       - name: lobby-container
-        image: 756266714368.dkr.ecr.ap-northeast-2.amazonaws.com/lobby:32
+        image: 756266714368.dkr.ecr.ap-northeast-2.amazonaws.com/lobby:33
         ports:
         - containerPort: 30000     # lobby-sub server port
 
